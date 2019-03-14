@@ -1,3 +1,15 @@
+收录顶会：ICCV
+
+论文链接：
+
+http://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html
+
+复现代码：
+
+https://github.com/facebookresearch/Detectron
+
+简介：本文提出一种基于快速区域的卷积网络方法（Fast R-CNN）用于物体检测。快速 R-CNN 建立在先前工作基础上，通过使用深度卷积网络有效地对对象提议进行分类。与之前的工作相比，Fast R-CNN 采用了多项创新来提高训练和测试速度，同时有效提高了检测精度。快速 R-CNN 可以训练出非常深的 VGG16 网络，不止比 R-CNN 快 9 倍，同时在测试时间上快了近 213 倍，且能在 PASCAL VOC 2012 上实现更高的 mAP。与 SPPnet 相比，Fast R-CNN 训练出的 VGG16 要快上 3 倍，测试速度上要快上 10 倍，同时结果也更准确。
+
 # Detectron
 
 Detectron is Facebook AI Research's software system that implements state-of-the-art object detection algorithms, including [Mask R-CNN](https://arxiv.org/abs/1703.06870). It is written in Python and powered by the [Caffe2](https://github.com/caffe2/caffe2) deep learning framework.
